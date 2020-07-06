@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Sofia&display=swap');
+
+:root{
+    --light-grey:rgb(131, 128, 128);
+    --primery-color: skyblue;
+    --text-color: rgb(255, 184, 52);
+    --border: rgb(44, 43, 43);
+    --anton:"Anton",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+}
+header{
+    background-color: var(--primery-color);
+    font-family: var(--anton);
+}
+header .site-title{
+    font-family: var(--gugi);
+}
+.container .dropdown-toggle,
+.container .dropdown-item{
+    font-size: 0.8em;
+}
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+.nav-link{
+    margin: 0em 1em;
+}
